@@ -283,6 +283,31 @@ If you encounter any issues or have questions:
 4. Open an issue on GitHub
 5. Check the LangChain and Google Gemini documentation
 
+## 🚀 Deployment
+
+### **Streamlit Cloud Deployment**
+
+1. **Go to [Streamlit Cloud](https://share.streamlit.io/)**
+2. **Sign in with your GitHub account**
+3. **Click "New app"**
+4. **Select your repository**: `Em-Deesha/SmartStudy-AI-using-Langchain`
+5. **Set the main file path**: `app.py`
+6. **Add environment variables**:
+   - Click "Advanced settings"
+   - Add `GOOGLE_API_KEY` with your Gemini API key
+7. **Click "Deploy!"**
+
+### **Environment Variables for Deployment**
+```
+GOOGLE_API_KEY=your_gemini_api_key_here
+```
+
+### **Deployment URL**
+Once deployed, your app will be available at:
+```
+https://smartstudy-ai-using-langchain.streamlit.app/
+```
+
 ## 🎯 Quick Start
 
 For a faster setup, see `QUICK_START.md` for a 3-step guide.
