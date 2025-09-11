@@ -1,2 +1,2 @@
-# System packages required for the application
-# These will be installed in the Streamlit Cloud environment
+libgl1-mesa-glx
+libglib2.0-0
